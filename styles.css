@@ -1,0 +1,63 @@
+body{
+    margin: 0;
+    background-color: rgb(245, 245, 245);
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav{
+    background: lightblue;
+    padding: 5px;
+    width: 100%;
+    top: 0;
+    left: 0;
+
+}
+h2{
+    margin-left: 20px;
+}
+h1{
+    text-align: center;
+}
+ul{
+    margin-left: 500px;
+}
+li{
+    list-style-type: None;
+    padding: 10px;
+    font-size: 17.5px;
+}
+
+form{
+    margin: 70px auto;
+    width: 800px;
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 10px;
+    font-size: 20px;
+    line-height: 1.5em;
+    background-color: white;
+    box-shadow: 5px 5px #eeebeb;
+}
+select{
+    font-size: 0.9em;
+    width: 100%;
+    border-radius: 10px;
+}
+input[type=submit]{
+    width: 100%;
+    padding: 5px;
+    font-size: 20px;
+    background-color: lightblue;
+    border-radius: 10px;
+    box-shadow: 3px 3px #eeebeb;
+    border-color: lightblue;
+}
+
+/*
+main{
+    max-width: 100%;
+    width: 1200px;
+    margin: 80px auto; margin is going to be same right and left due to keyword auto 
+    padding: 0 40px;
+    box-sizing: border-box; border box means padding should be part of whole width and not extra
+}
+*/
